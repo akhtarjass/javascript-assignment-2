@@ -219,3 +219,23 @@
 
 
 // Chapter # 31-34
+
+
+// Task # 1
+// var date = new Date();
+// document.write("<h1>"+date+"</h1>")
+
+
+
+// Task # 2
+// var date = new Date();
+//   var month = date.getMonth()
+//   var months = ["January","February","March","April","May","June","July","August","September","Octuber","November","December"]
+//   document.write("<h1>Current month: "+months[month]+"</h1>")
+    
+
+// Task # 3
+//  var date = new Date();
+//  var getDay = date.getDay();
+//  var day = ["Sun","Mon","Tue","Wed","Ths","Fri","Sat"];
+// document.write("<h1>Today is "+day[getDay]+"</h1>") 
