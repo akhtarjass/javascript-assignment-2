@@ -239,3 +239,130 @@
 //  var getDay = date.getDay();
 //  var day = ["Sun","Mon","Tue","Wed","Ths","Fri","Sat"];
 // document.write("<h1>Today is "+day[getDay]+"</h1>") 
+
+
+//   Task # 4
+// var date = new Date();
+// var getDay = date.getDay();
+// if(getDay == 6){
+//     document.write("<h1>It`s Fun day</h1><br>")
+// }else if(getDay == 0){
+//     document.write("<h1>It`s Fun day</h1><br>")
+// }else{
+//     document.write("<h1>Today is not Saturday or Sunday</h1>")
+// }
+
+// Task # 5
+
+// var date = new Date();
+// getDate = date.getDate();
+// if(getDate <=15 ){
+//     document.write("<h1>First fifteen days of the month</h1>")
+// }else{
+//     document.write("<h1>Last days of the month</h1>")
+// }
+
+
+// Task # 6
+// var date = new Date();
+// miliSec = date.getTime();
+// minute = miliSec/1000/60/60
+// minute = Math.floor(minute)
+// console.log(minute)
+
+// document.write("Current Date: "+date+"<br>")
+// document.write("Elapsed miliseconds since Jaunary 1, 1970: "+miliSec+"<br>")
+// document.write("elapsed minutes since January 1, 1970: "+minute)
+
+
+// Task # 7 
+// var date = new Date();
+// var gethour = date.getHours();
+// if(gethour <= 12){
+//     alert("It`s AM")
+// }else{
+//     alert("It`s PM")
+// }
+
+
+//  Task # 8
+
+
+
+
+
+
+// Task # 11
+// var date = new Date();
+// document.write("Curent date: "+date+"<br>")
+// var getHour = date.getHours();
+// var hour = getHour-1;
+// date.setHours(hour);
+// document.write("1 hour ago, it was "+date)
+
+
+
+
+// Task # 12
+
+// var date = new Date();
+// alert("Curent date: "+date)
+// var getyear =  date.getFullYear();
+// var minusYears = getyear-100;
+// date.setFullYear(minusYears)
+// alert("100 year ago, it was "+date)
+
+
+
+
+// Task # 13 
+// var dob = new Date(prompt("Enter your Date of birth","Jan 1, 1970"))
+// var birthYear = dob.getFullYear();
+// dobMili = dob.getTime();
+// var today = new Date();
+// var todayMili = today.getTime();
+// minusmili = today - dobMili;
+// diffYear = minusmili/(1000*60*60*24*30*12)
+// var resultAge = Math.floor(diffYear)
+
+// document.write("<h1>Your age is "+resultAge+"</h1>")
+// document.write("<h1>Your birth year is "+birthYear+"</h1>")
+
+
+
+
+// Task # 14
+// var date = new Date();
+// var month = date.getMonth();
+// var unitTotal = 410*16;
+// var afterDue = unitTotal+350;
+// document.write("<h1>K-Electric Bill</h1><br>")
+// document.write("Costomer Name: ABC Costumer <br>")
+// document.write("Month: "+month+"<br>")
+// document.write("Number of Units: 410 <br>")
+// document.write("Charges per unit: 16 <br><br>")
+// document.write("Net Amount Payable (within Due Date): "+unitTotal+"<br>")
+// document.write("Late payment surcharge: 350 <br>")
+// document.write("Gross Amount Payable (after Due Date): "+afterDue)
+
+
+// Chapter # 35-38
+
+
+// Task # 1
+// function date(){
+//     document.write(Date()) 
+// }
+// date()
+
+
+// Task # 2
+var firstName = +prompt("Enter your first name")
+var lastName = +prompt("Enter your last name")
+function names(a,b){
+     var c = a+b
+     return c;
+}
+ var d = names(firstName,lastName)
+ alert(d)
+// names(firstName,lastName)
