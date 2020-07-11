@@ -357,12 +357,47 @@
 
 
 // Task # 2
-var firstName = +prompt("Enter your first name")
-var lastName = +prompt("Enter your last name")
-function names(a,b){
-     var c = a+b
-     return c;
+// var firstName = prompt("Enter your first name")
+// var lastName = prompt("Enter your last name")
+// function names(a,b){
+//      var c = a +" "+ b;
+//      return c;
+// }
+// var word = names(firstName, lastName)
+// alert(word)
+
+
+
+// Task # 3 
+// var firstnum = +prompt("Enter first num")
+// var secnum = +prompt("Enter second num")
+// function add(a,b){
+//      document.write(a+b)
+// }
+//  add(firstnum,secnum)
+
+
+// Task # 4 
+function calc(num1,opr,num2){
+     if(opr === "+"){
+          return (+num1) + (+num2)
+     }
+     else if(opr === "-"){
+          return num1 - num2
+     }
+     else if(opr === "*"){
+          return num1 * num2
+     }
+     else if(opr === "/"){
+          return num1 / num2
+     }
+     else {
+          return "operator error"
+     }
 }
- var d = names(firstName,lastName)
- alert(d)
-// names(firstName,lastName)
+
+var num1 = prompt("Enter first value")
+var opr = prompt("Enter Operator")
+var num2 = prompt("Enter second valu")
+var result = calc(num1,opr,num2)
+document.write("<h1>"+result+"</h1>")
